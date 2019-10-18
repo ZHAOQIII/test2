@@ -1,0 +1,6 @@
+while True:
+    try:
+        a=input()
+        print(''.join(sorted(a)))
+    except:
+        break
