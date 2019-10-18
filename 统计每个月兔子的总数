@@ -1,0 +1,12 @@
+def num(n):
+    if n<3:
+        return 1
+    else:
+        return num(n-1)+num(n-2)
+while True:
+    try:
+        a=int(input())
+        b=num(a)
+        print(b)
+    except:
+        break
